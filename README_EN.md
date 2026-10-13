@@ -1,9 +1,10 @@
+**Language:** [Tiếng Việt](README.md) | **English**
+
 # SteamFix — Steam Network Diagnostics & Repair Tool
 
 **SteamFix** is a Windows troubleshooting utility packaged as a `.bat` file that combines Windows PowerShell and C#. It is designed to test, diagnose, and attempt to address selected Steam connectivity issues that may involve DNS resolution or TLS/SNI filtering along the network path.
 
 It is intended for situations such as:
-
 - Steam Store or Community pages loading as blank pages or missing styles/CSS.
 - Steam connection errors such as **`-105`**.
 - Default or missing player avatars in Steam/CS2.
@@ -95,7 +96,6 @@ Can remove selected Steam browser, HTTP, and avatar caches so Steam can reload i
 ## System Changes to Be Aware Of
 
 Depending on the selected menu item, SteamFix may:
-
 - Change DNS settings on the network adapters it processes; DoH settings may also be registered in Windows.
 - Create a Scheduled Task named **`SteamFix Relay`** that runs the relay under the SYSTEM account at startup or logon.
 - Listen on local TCP address `127.0.0.1:443` and, when its HTTP component is enabled, `127.0.0.1:80`.
