@@ -133,4 +133,4 @@ This tool is provided for network diagnostics and troubleshooting on the user's 
 
 ---
 
-**Author:** V — Tran Hieu Nghia
+**Author:** TimmyHeart - V — Tran Hieu Nghia
